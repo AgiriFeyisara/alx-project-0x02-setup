@@ -10,6 +10,9 @@ const Header = () => {
         <Link href="/about">
           <span className="cursor-pointer hover:underline">About </span>
         </Link>
+        <Link href="/posts">
+          <span className="cursor-pointer hover:underline">Posts </span>
+        </Link>
       </header>
     </div>
   );
