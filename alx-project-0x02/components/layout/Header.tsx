@@ -4,7 +4,7 @@ const Header = () => {
     <div>
       <header className="w-full bg-blue-500 text-white p-4 flex gap-6">
         <h1 className="p-6">This is the header section</h1>
-        <Link href="/">
+        <Link href="/home">
           <span className="cursor-pointer hover:underline">Home </span>
         </Link>
         <Link href="/about">
